@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.3.2] - 2026-03-25
+
+### Fixed
+- Added README for npm package (was missing in v1.3.1)
+- Added npm badge to main README
+
 ## [1.3.1] - 2026-03-25
 
 ### Added
