@@ -1,0 +1,26 @@
+{
+  "name": "sharplens-mcp",
+  "version": "1.3.0",
+  "description": "MCP server providing 58 AI-optimized tools for .NET/C# semantic code analysis using Roslyn.",
+  "bin": {
+    "sharplens-mcp": "./bin/sharplens-mcp.js"
+  },
+  "keywords": [
+    "mcp",
+    "roslyn",
+    "csharp",
+    "dotnet",
+    "code-analysis",
+    "ai",
+    "semantic-analysis"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pzalutski-pixel/sharplens-mcp"
+  },
+  "author": "Peter Zalutski",
+  "engines": {
+    "node": ">=16"
+  }
+}

@@ -19,6 +19,11 @@ Then run with:
 sharplens
 ```
 
+### Via npm
+```bash
+npx -y sharplens-mcp
+```
+
 ### Build from Source
 ```bash
 dotnet build -c Release
@@ -27,9 +32,11 @@ dotnet publish -c Release -o ./publish
 
 ## Claude Code Setup
 
-1. **Install the tool globally**:
+1. **Install the tool** (pick one):
 ```bash
 dotnet tool install -g SharpLensMcp
+# or
+npx -y sharplens-mcp
 ```
 
 2. **Create `.mcp.json` in your project root**:
@@ -38,8 +45,8 @@ dotnet tool install -g SharpLensMcp
   "mcpServers": {
     "sharplens": {
       "type": "stdio",
-      "command": "sharplens",
-      "args": [],
+      "command": "npx",
+      "args": ["-y", "sharplens-mcp"],
       "env": {
         "DOTNET_SOLUTION_PATH": "/path/to/your/Solution.sln (or .slnx)"
       }
